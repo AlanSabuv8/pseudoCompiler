@@ -1,0 +1,23 @@
+a = 5
+b = 10 + 2 //This is a single line comment
+c = 9
+if a > b
+    big = a
+elseif c > b then 
+    big = c
+else 
+    big = b
+endif
+print "Hello"
+while a >= b do 
+    print "2 + 8"
+endwhile
+switch c
+    case 1
+        a=b
+    case 2
+        b=c
+    default
+        d=a
+endswitch
+print "ended"
